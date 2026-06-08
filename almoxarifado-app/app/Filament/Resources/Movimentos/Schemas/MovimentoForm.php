@@ -12,9 +12,17 @@ class MovimentoForm
     {
         return $schema
             ->components([
-                TextInput::make('produto_id')
-                    ->required()
-                    ->numeric(),
+                // TROQUE O TextInput POR Select AQUI:
+                Select :: make('produto_id')
+                    ->label('Produto')
+                    ->relationship(name: 'produto', titleAttribute: 'nome') // <--- O Filament busca o nome aqui
+                    ->searchable() // Permite pesquisar pelo nome
+                    ->preload()// Carrega a lista automaticamente
+                    ->required(),
+
+                    //xtInput :: make('produto_id')
+                    // ->required()
+                    //>numeric(),
                 TextInput::make('quantidade')
                     ->required()
                     ->numeric(),
