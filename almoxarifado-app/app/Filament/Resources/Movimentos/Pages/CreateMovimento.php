@@ -1,13 +1,22 @@
 <?php
 
 namespace App\Filament\Resources\Movimentos\Pages;
-
+use App\Models\Movimento;
+use App\Models\Produto;
 use App\Filament\Resources\Movimentos\MovimentoResource;
 use Filament\Resources\Pages\CreateRecord;
 
 class CreateMovimento extends CreateRecord
 {
     protected static string $resource = MovimentoResource::class;
+
+    /**
+     * O que a beforeCreate faz?
+     * ---------
+     * 
+     * @param $data recebe os dados do produto
+     * @param $produto recebe uma lista com os dados dos produtos pelo id
+     */
 
     protected function beforeCreate(): void{
         //Recebe a lista de produtos
