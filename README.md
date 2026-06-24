@@ -1,5 +1,6 @@
 # Almoxarifado-3B
-Sistema de almoxarifado para o SENAI feito pelo ***Tercetroia***
+Sistema de almoxarifado feito pelo ***Tercetroia***
+**link de acesso: http://ferraciolli-almoxarifado.free.nf**
 
 ## Objetivos do projeto:
 Este sistema foi desenvolvido na disciplina de Implantação de Sistemas do SENAI. O objetivo é controlar o estoque de materiais de TI e escritório da instituição, registrando entradas, saídas e gerando alertas de estoque baixo.
