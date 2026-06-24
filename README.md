@@ -1,5 +1,5 @@
-# Almoxarifado-3B
-Sistema de almoxarifado feito pelo ***Tercetroia***
+# Almoxarifado-***Tercetroia***
+Sistema de almoxarifado feito em sala (Curso técnico de Desenvolvimento de Sistemas - Firjan SENAI)
 
 **link de acesso: http://ferraciolli-almoxarifado.free.nf**
 
